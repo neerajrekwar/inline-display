@@ -20,7 +20,7 @@ body, main {
 .mid_container{
   text-transform: proper;
   margin: 0 auto;
-  /* border: 1px solid tomato; */
+  border: 1px solid tomato;
   width: 80%;
 }
 .post_container{
@@ -30,12 +30,13 @@ body, main {
 }
 .post{
   /* margin: 0 auto; */
-  display: inline;
+  /* display: inline; */
   /* padding: 2px; */
   margin: 5px;
-  height: 30%;
-  width: 20%;
-  background-color: blue;
+  /* height: 30%;
+  width: 20%; */
+  /* background-color: blue; */
+  border: 1px solid #000;
 }
 article a {
   text-decoration: none;
