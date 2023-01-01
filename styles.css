@@ -1,9 +1,10 @@
 * {
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body, main {
   margin: 0 auto;
@@ -12,14 +13,14 @@ body, main {
 .container {
   
   margin: 0 auto;
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   width: 90%;
 
 }
 .mid_container{
-  display: inline;
+  text-transform: proper;
   margin: 0 auto;
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   width: 80%;
 }
 .post_container{
@@ -35,6 +36,10 @@ body, main {
   height: 30%;
   width: 20%;
   background-color: blue;
+}
+article a {
+  text-decoration: none;
+  color: #000;
 }
 .t404__link  {
   text-decoration: none;
