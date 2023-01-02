@@ -58,12 +58,13 @@ img {
   .mid_container {
     /* background-color: #125472; */
     width: 80%;
+
   }
   .post_container{    
-
+   display: inline;
    } 
    .post{ 
-     margin: 5px; 
+     margin: 0; 
    } 
    .post__link { 
      
