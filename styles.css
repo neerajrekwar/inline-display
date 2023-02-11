@@ -13,10 +13,24 @@ body, main, div{
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 5px;
   background-color: rgb(31, 88, 88);
+  height: auto;
 }
 .card{
+  display: grid;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: rgb(65, 116, 116);
-  margin: 20px 20px 0px 20px ;
+  margin: 20px 20px 0px 20px;
+  border-radius: 15px;
+}
+h1{
+  /* text-align: left; */
+  color: beige;
+  font-size: 1.5em;
+  margin: 20px 3px;
+}
+p{
+  margin: 20px 5px;
+  color: #353535;
 }
