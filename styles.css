@@ -1,114 +1,22 @@
 * {
-
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-body, main {
-  margin: 0 auto;
-  width: 100%;
-  /* border: 2px solid #125472; */
+body, main, div{
+  margin: 0;
+  padding: 0;
 }
-#full-size-h {
-  text-align: center;
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 5px;
+  background-color: rgb(31, 88, 88);
 }
-.container {
-  /* border: 2px solid #125472; */
-  margin: 0 auto;
-  width: 100%;
-
-}
-.mid_container{
-  display: flexbox;
-  margin: 0 auto;
-  /* border: 1px solid tomato; */
-  width: 90%;
-}
-.post_container{
-  
-  margin: 0 auto;
-  /* display: inline; */
-  
-}
-.post{
-  font-size: 1.5em;
-  /* margin: 0 auto; */
-  margin: 5px;
-  /* background-color: blue; */
-  /* border: 1px solid #000; */
-}
-article {
-  margin-bottom: 90px;
-}
-article a {
-  text-decoration: none;
-  color: #000;
-}
-.t404__link  {
-  text-decoration: none;
-  color: #000;
-}
-img {
-  width: 100%;
-  height: auto;
-}
-@media all and (max-width: 1200px) {
-  .mid_container {
-    /* background-color: #125472; */
-    width: 80%;
-
-  }
-  .post_container{    
-   display: inline;
-   } 
-   .post{ 
-     margin: 0; 
-   } 
-   .post__link { 
-     
-   } 
-   .tab { 
-     margin: 0; 
-   } 
-}
-
-
-@media screen and (max-width: 960px) {
-    body { /* background-color: aliceblue; */ }
-    
-    .mid_container {
-      /* background-color: #125472; */
-      width: 90%;
-    }
-   .post_container{ 
-     display: table; 
-     /* justify-content: center; */
-     /* align-items: center; */ 
-     margin: 0 auto; 
-    } 
-    .post{ 
-      margin: 5px; 
-    } 
-    .post__link { 
-      display: flex; 
-    } 
-    .tab { 
-      margin: 20 20 20 20; 
-    } 
-}
-@media (max-width: 612px) {
-   .post_container{ 
-    margin: 0 auto; 
-   } 
-   .post{ 
-     margin: 5px; 
-   } 
-   .post__link { 
-     display: inline; 
-   } 
-   .tab { 
-    margin: 0; 
-  } 
+.card{
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(65, 116, 116);
+  margin: 20px 20px 0px 20px ;
 }
